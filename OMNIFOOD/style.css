@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: bold;
+    src: url(../Rubik/static/Rubik-Bold.ttf);
+}
+
+@font-face {
+    font-family: normal;
+    src: url(../Rubik/static/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: thin;
+    src: url(../Rubik/static/Rubik-Light.ttf);
+}
+
+
+.nav-bar{
+    width: 100%;
+    height: 100px;
+    background: #fdf2e9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+
+.nav-bar img{
+    width: auto;
+    height: 25px;
+    margin-left: 50px;
+}
+
+.nav-bar ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 50px;
+    margin-right: 50px;
+}
+
+.nav-bar li{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: normal;
+}
+
+button{
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    font-family: normal;
+    font-weight: bold;
+    background: orange;
+    border-radius: 10px;
+    border: 1px orange;   
+}
+
+button:hover{
+    background: #ed7b02;
+    cursor: pointer;
+}
+
+.main-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+    background: #fdf2e9;
+    padding: 45px 75px;
+    font-family: bold;
+}
+
+.container{
+    width: 50%;
+    height: 100vh;
+}
+
+.container h1{
+    font-size: 40px;
+    width:80%;
+    color: #414141;
+}
+
+.container p{
+    width: 80%;
+    font-size: 19px;
+    font-family: normal;
+    line-height: 30px;
+    color: #616161;
+    padding: 40px 0px;
+}
+
+.start, .learn{
+    padding: 18px 40px;
+    gap: 10px;
+    width: 15rem;
+    height: 3.5rem;
+}
+
+.learn{
+    background: white;
+    color: black;
+}
+
+.learn:hover{
+    background: #fdf2e9;
+    border: 3px solid white;
+}
+
+.butt{
+    display: flex;
+    gap: 20px;
+}
+
+.cont-img{
+    width: 50%;
+    height: 100vh;
+}
+
+.cont-img img{
+    width: 100%;
+    height: auto;
+}
+
+.circle{
+    width: 1rem;
+    height:1rem;
+    background: #ed7b02;
+    border-radius: 50%;
+    margin: 1rem;
+    transform: translateY(-1.5rem);
+}
+
+.shapes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foodie{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    transform: translate(0rem,10rem);
+}
